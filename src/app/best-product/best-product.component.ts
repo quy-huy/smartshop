@@ -74,7 +74,7 @@ export class BestProductComponent implements OnInit {
     return R;
   }
   ngOnInit() {
-    this.slides = this.chunk(this.cards, 3);
+    this.slides = this.chunk(this.cards, 4);
 
     if (window.innerWidth <= this.CAROUSEL_BREAKPOINT) {
       this.carouselDisplayMode = 'single';

@@ -1,3 +1,50 @@
-.btn {
+.fixed {
     background-color: #000000 !important
+}
+
+.h4 {
+    font-weight: 900
+}
+
+button {
+    width: 100%
+}
+
+.btn--fb {
+    color: white;
+    background-color: #4267b2 !important
+}
+
+.btn--gg {
+    color: white;
+    background-color: #e74847;
+}
+
+.btn--yh {
+    color: white;
+    background-color: #2d1451;
+}
+
+h2 {
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding-left: 1.3em;
+    line-height: 50px
+}
+
+li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    color: green;
+    width: 1.3em;
 }

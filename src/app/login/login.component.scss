@@ -17,12 +17,12 @@ button {
 
 .btn--gg {
     color: white;
-    background-color: #e74847;
+    background-color: #e74847 !important;
 }
 
 .btn--yh {
     color: white;
-    background-color: #2d1451;
+    background-color: #2d1451 !important;
 }
 
 h2 {
@@ -37,7 +37,8 @@ ul {
 
 li {
     padding-left: 1.3em;
-    line-height: 50px
+    line-height: 50px;
+    color: grey
 }
 
 li:before {

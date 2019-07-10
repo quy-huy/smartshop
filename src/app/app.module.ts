@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 //BootstrapMD
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
+import {IconsModule} from 'angular-bootstrap-md';
+
 //font-awesome
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -13,7 +15,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { CardComponent } from './card/card.component';
 import { BestProductComponent } from './best-product/best-product.component';
-
+import {ReactiveFormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { BestProductComponent } from './best-product/best-product.component';
     BrowserModule,
     AppRoutingModule,
     MDBBootstrapModule.forRoot(),
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    IconsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
